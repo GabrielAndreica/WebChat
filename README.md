@@ -35,3 +35,27 @@ Autentificare: Utilizatorii isi creeaza un cont sau se autentifica. Dupa autenti
 Conectare WebSocket: Dupa autentificare, utilizatorii initiaza o conexiune WebSocket pentru a primi mesaje in timp real.
 Mesagerie: La trimiterea unui mesaj, clientul il transmite catre server. Serverul transmite mesajul mai departe utilizatorului/ utilizatorilor tinta si il stocheaza in baza de date.
 Deconectare: La inchiderea aplicatiei, utilizatorul se deconecteaza, inchizand conexiunea WebSocket si sesiunea de autentificare.
+
+5. Lista MoSCoW
+  5.1 Must-Have
+    Autentificare și autorizare
+    Funcționalitate de mesagerie
+   Grupuri și camere de discuții
+   Interfață utilizator intuitiva
+
+   5.2 Should-Have
+     Notificări
+     Sistem de căutare
+     Profil utilizator
+     Roluri și permisiuni în grupuri
+
+   5.3 Could-Have
+     Sisteme multimedia
+     Reacții la mesaje
+     Status utilizator
+     Mesaje temporare
+
+   5.4 Won’t-Have
+     Traducere automată a mesajelor
+     Machine learning pentru filtrarea conținutului
+   
